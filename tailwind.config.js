@@ -7,8 +7,12 @@ export default {
   theme: {
     colors:{
       spotifyGreen : " #1ED760",
-      spotiifyWhite :"#ffffff",
-      spotifyBlack: "#121212"
+      spotiifyWhiteText :"#ffffff",
+      spotifyBlack: "#121212",
+      bgColor: "#191414",
+      secondaryText: "#B3B3B3",
+      coralCOlor: "#FF6F61"
+      
     },
 
     extend: {},

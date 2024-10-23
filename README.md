@@ -30,7 +30,7 @@ Feel free to clone or fork this repository. If you wish to set up the project lo
     ```
 4. Start the application
     ```bash
-  npm start
+    npm run dev
     ```
 
 
