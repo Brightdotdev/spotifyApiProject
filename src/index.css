@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@font-face {
+  font-family: 'helveticaMedium';
+  src: url('/Fonts/Helvetica\ Roman.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'helveticaThin';
+  src: url('/Fonts/Helvetica-Narrow-Oblique.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'helveticaThick';
+  src: url('/Fonts/helvetica\ black.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+*{
+  font-family: helveticaNormal  sans-serif;
+}
+
+
+
+
+.cls-1{fill:#231f20;}.cls-2{fill:#fff;}
