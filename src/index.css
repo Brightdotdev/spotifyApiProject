@@ -29,8 +29,66 @@
 *{
   font-family: helveticaNormal  sans-serif;
 }
+.cls-1{fill:#231f20;}.cls-2,.cls-3{fill:#fff;}.cls-3{stroke:#fff;stroke-miterlimit:10;}
 
 
 
 
-.cls-1{fill:#231f20;}.cls-2{fill:#fff;}
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+  background-color: #1a1a1a; /* Background color of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #333; /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Rounded corners for the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color when hovering over the thumb */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #1a1a1a; /* Background color of the track */
+  border-radius: 6px; /* Rounded corners for the track */
+}
+
+
+.scrollable::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.scrollable {
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+
+
+.spotifyBg{
+@apply  bg-topArtistsGradientSmallScreen md:bg-topArtistsGradient
+
+}
+
+.homePage{
+  @apply bg-smallScreengradient md:bg-custom-gradient
+}
+
+
+@keyframes sheen {
+  0% {
+    background-position: -100%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.sheenEffect {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2));
+  background-size: 200% 100%;
+  animation: sheen 1.5s infinite;
+}
