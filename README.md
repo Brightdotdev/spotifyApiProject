@@ -22,7 +22,7 @@ Feel free to clone or fork this repository. If you wish to set up the project lo
    ```
 2. Navigate to your Repository
     ```bash
-    cd spotifyApoProject
+    cd spotifyApiProject
     ```
 3. Install dependencies
     ```bash
