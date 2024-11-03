@@ -18,11 +18,11 @@ Feel free to clone or fork this repository. If you wish to set up the project lo
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/Brightdotdev/spotifyApiProject.git
    ```
 2. Navigate to your Repository
     ```bash
-    cd your-repository
+    cd spotifyApoProject
     ```
 3. Install dependencies
     ```bash
